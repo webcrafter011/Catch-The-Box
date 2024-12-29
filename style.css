@@ -1,0 +1,40 @@
+/* Reset and Body Styles */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+
+/* Container */
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* MyBox */
+#myBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    background: lightblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s ease-out;
+}
