@@ -58,13 +58,13 @@ To run this game locally:
 1. **Clone this repository**:
 
    ```bash
-   git clone https://github.com/your-username/interactive-box-game.git
+   git clone git@github.com:webcrafter011/Catch-The-Box.git
    ```
 
 2. **Navigate into the project directory**:
 
    ```bash
-   cd interactive-box-game
+   cd Catch-The-Box
    ```
 
 3. **Open the `index.html` file in your browser**. The game should be running locally on your machine.
